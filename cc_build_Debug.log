@@ -1,0 +1,9 @@
+------------------------------  edit.pjt - Debug  ------------------------------
+[motorcrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -q -fr"E:/DSP/sensor-cllp_key_display/Debug" -i"E:/DSP/sensor-cllp_key_display/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../Debug.lkf" "motorcrl.c"
+
+[Linking...] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -@"Debug.lkf"
+<Linking>
+>> warning: creating output section McbspRegsFile without SECTIONS specification
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.
