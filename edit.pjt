@@ -2,7 +2,7 @@
 
 [Project Settings]
 ProjectName="MCBSP"
-ProjectDir="E:\DSP\sensor-cllp_key_display\"
+ProjectDir="E:\DSP\motor_control\"
 ProjectType=Executable
 CPUFamily=TMS320C28XX
 Tool="Compiler"
@@ -32,10 +32,10 @@ Source="src\weizhisudupid.c"
 Source="FLASH.cmd"
 
 ["Compiler" Settings: "Debug"]
-Options=-g -q -fr"E:\DSP\sensor-cllp_key_display\Debug" -i"E:\DSP\sensor-cllp_key_display\include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28
+Options=-g -q -fr"E:\DSP\motor_control\Debug" -i"E:\DSP\motor_control\include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28
 
 ["Compiler" Settings: "Release"]
-Options=-q -fr"E:\DSP\sensor-cllp_key_display\Release" -i"E:\DSP\sensor-cllp_key_display\include" -d"LARGE_MODEL" -ml -v28
+Options=-q -fr"E:\DSP\motor_control\Release" -i"E:\DSP\motor_control\include" -d"LARGE_MODEL" -ml -v28
 
 ["DspBiosBuilder" Settings: "Debug"]
 Options=-v28

@@ -1,10 +1,10 @@
 ******************************************************************************
         TMS320C2000 COFF Linker PC v4.1.3                      
 ******************************************************************************
->> Linked Mon Jun 25 22:56:21 2012
+>> Linked Tue Sep 18 16:31:56 2012
 
 OUTPUT FILE NAME:   <./Release/MCBSP.out>
-ENTRY POINT SYMBOL: "_c_int00"  address: 003e4813
+ENTRY POINT SYMBOL: "_c_int00"  address: 003e4814
 
 
 MEMORY CONFIGURATION
@@ -15,7 +15,7 @@ PAGE  0: OTP                     003d7800   00000800  00000000  RWIX
          FLASHJ                  003d8000   00002000  000000a8  RWIX
          FLASHI                  003da000   00002000  00000000  RWIX
          FLASHH                  003dc000   00006000  00000115  RWIX
-         FLASHP                  003e4000   00013ff6  00000a06  RWIX
+         FLASHP                  003e4000   00013ff6  00000a07  RWIX
          BEGIN                   003f7ff6   00000002  00000002  RWIX
          PASSWDS                 003f7ff8   00000008  00000000  RWIX
          ROM                     003ff000   00000fc0  00000000  RWIX
@@ -75,7 +75,7 @@ IQmathFastTables
                   003dc000    00000100     DSP28_PieVect.obj (.econst)
                   003dc100    00000015     DSP2812LCD.obj (.econst)
 
-.text      0    003e4000    00000a06     
+.text      0    003e4000    00000a07     
                   003e4000    00000051     adinit.obj (.text)
                   003e4051    00000034     cap.obj (.text)
                   003e4085    000000c4     DSP2812LCD.obj (.text)
@@ -86,20 +86,20 @@ IQmathFastTables
                   003e42dc    00000014     DSP28_Sci.obj (.text)
                   003e42f0    0000002d     DSP28_SysCtrl.obj (.text)
                   003e431d    00000079     DSP28_Xintf.obj (.text)
-                  003e4396    00000032     evpwm.obj (.text)
-                  003e43c8    00000048     gpioinit.obj (.text)
-                  003e4410    0000007e     motorcrl.obj (.text)
-                  003e448e    00000385     weizhisudupid.obj (.text)
-                  003e4813    00000046     rts2800.lib : boot.obj (.text)
-                  003e4859    0000003e                 : exit.obj (.text)
-                  003e4897    0000008c                 : fs_add.obj (.text)
-                  003e4923    00000017                 : fs_cmp.obj (.text)
-                  003e493a    0000005a                 : fs_mpy.obj (.text)
-                  003e4994    00000024                 : fs_toi.obj (.text)
-                  003e49b8    00000022                 : i_div.obj (.text)
-                  003e49da    0000001a                 : i_tofs.obj (.text)
-                  003e49f4    0000000b                 : u_div.obj (.text)
-                  003e49ff    00000007                 : _lock.obj (.text)
+                  003e4396    00000034     evpwm.obj (.text)
+                  003e43ca    00000048     gpioinit.obj (.text)
+                  003e4412    0000007e     motorcrl.obj (.text)
+                  003e4490    00000384     weizhisudupid.obj (.text)
+                  003e4814    00000046     rts2800.lib : boot.obj (.text)
+                  003e485a    0000003e                 : exit.obj (.text)
+                  003e4898    0000008c                 : fs_add.obj (.text)
+                  003e4924    00000017                 : fs_cmp.obj (.text)
+                  003e493b    0000005a                 : fs_mpy.obj (.text)
+                  003e4995    00000024                 : fs_toi.obj (.text)
+                  003e49b9    00000022                 : i_div.obj (.text)
+                  003e49db    0000001a                 : i_tofs.obj (.text)
+                  003e49f5    0000000b                 : u_div.obj (.text)
+                  003e4a00    00000007                 : _lock.obj (.text)
 
 codestart 
 *          0    003f7ff6    00000002     
@@ -227,16 +227,16 @@ address    name
 00006040   .bss
 00000000   .data
 003e4000   .text
-003e4878   C$$EXIT
-003e4897   FS$$ADD
-003e4923   FS$$CMP
-003e493a   FS$$MPY
-003e4994   FS$$TOI
-003e49b8   I$$DIV
-003e49c9   I$$MOD
-003e49da   I$$TOFS
-003e49f4   U$$DIV
-003e49f9   U$$MOD
+003e4879   C$$EXIT
+003e4898   FS$$ADD
+003e4924   FS$$CMP
+003e493b   FS$$MPY
+003e4995   FS$$TOI
+003e49b9   I$$DIV
+003e49ca   I$$MOD
+003e49db   I$$TOFS
+003e49f5   U$$DIV
+003e49fa   U$$MOD
 003e41ba   _ADCINT_ISR
 00007100   _AdcRegs
 00008020   _Average
@@ -272,7 +272,7 @@ address    name
 00000a80   _FlashRegs
 000070e0   _GpioDataRegs
 000070c0   _GpioMuxRegs
-003e43c8   _Gpioinit
+003e43ca   _Gpioinit
 003e4179   _ILLEGAL_ISR
 003e4151   _INT13_ISR
 003e4156   _INT14_ISR
@@ -309,8 +309,8 @@ address    name
 003e426e   _SPITXINTA_ISR
 00007050   _SciaRegs
 00007750   _ScibRegs
-003e47be   _Scirxinta_isr
-003e480e   _Scitxinta_isr
+003e47bf   _Scirxinta_isr
+003e480f   _Scitxinta_isr
 00008014   _Speed
 00008016   _Speedset
 00007040   _SpiaRegs
@@ -364,20 +364,20 @@ ffffffff   ___c_args__
 00000000   ___data__
 00000000   ___edata__
 000060c4   ___end__
-003e4a06   ___etext__
+003e4a07   ___etext__
 ffffffff   ___pinit__
 003e4000   ___text__
 00006044   __cleanup_ptr
 00006042   __dtors_ptr
 000060c2   __lock
-003e49ff   __nop
-003e4a00   __register_lock
-003e4a03   __register_unlock
+003e4a00   __nop
+003e4a01   __register_lock
+003e4a04   __register_unlock
 000060c0   __unlock
-003e4896   _abort
-003e487a   _atexit
-003e4813   _c_int00
-003e4595   _cap_isr
+003e4897   _abort
+003e487b   _atexit
+003e4814   _c_int00
+003e4597   _cap_isr
 00008004   _capstastus
 00008038   _count
 00009c40   _datarevlength
@@ -385,7 +385,7 @@ ffffffff   ___pinit__
 00008008   _dccurent
 0000800a   _dcvcount
 00008001   _dcvoltage
-003e479d   _delay
+003e479e   _delay
 003e4141   _delay1
 0000800b   _dir
 00008010   _du
@@ -393,7 +393,7 @@ ffffffff   ___pinit__
 0000800f   _ek
 0000800e   _ek1
 00008017   _ek2
-003e4859   _exit
+003e485a   _exit
 00008022   _kd
 00008028   _ki
 00008026   _kp
@@ -404,12 +404,12 @@ ffffffff   ___pinit__
 003e40fe   _lcdw_chars
 003e4085   _lcdwc
 003e4091   _lcdwd
-003e47b1   _ldelay
+003e47b2   _ldelay
 003e4134   _ldelay1
-003e448e   _main
+003e4490   _main
 00008013   _nnn
-003e4706   _pdpinta_isr
-003e4726   _pidcontrol
+003e4707   _pdpinta_isr
+003e4727   _pidcontrol
 0000801b   _pwm
 0000801a   _realspeed_flag
 0000801c   _rece_time
@@ -419,12 +419,12 @@ ffffffff   ___pinit__
 0000803c   _speed_real
 00008019   _speed_resolution
 00008012   _sss
-003e4410   _startmotor
-003e4482   _stopmotor
-003e465d   _t1pint_isr
+003e4412   _startmotor
+003e4484   _stopmotor
+003e4660   _t1pint_isr
 00008007   _t1prd
 00008011   _t2
-003e4581   _t2pint_isr
+003e4583   _t2pint_isr
 00008006   _t2prd
 00008080   _test0
 00008880   _test1
@@ -433,7 +433,7 @@ ffffffff   binit
 003d8000   cinit
 00000000   edata
 000060c4   end
-003e4a06   etext
+003e4a07   etext
 ffffffff   pinit
 
 
@@ -614,38 +614,38 @@ address    name
 003e42f0   _InitSysCtrl
 003e431d   _InitXintf
 003e4396   _Init_eva_pwm
-003e43c8   _Gpioinit
-003e4410   _startmotor
-003e4482   _stopmotor
-003e448e   _main
-003e4581   _t2pint_isr
-003e4595   _cap_isr
-003e465d   _t1pint_isr
-003e4706   _pdpinta_isr
-003e4726   _pidcontrol
-003e479d   _delay
-003e47b1   _ldelay
-003e47be   _Scirxinta_isr
-003e480e   _Scitxinta_isr
-003e4813   _c_int00
-003e4859   _exit
-003e4878   C$$EXIT
-003e487a   _atexit
-003e4896   _abort
-003e4897   FS$$ADD
-003e4923   FS$$CMP
-003e493a   FS$$MPY
-003e4994   FS$$TOI
-003e49b8   I$$DIV
-003e49c9   I$$MOD
-003e49da   I$$TOFS
-003e49f4   U$$DIV
-003e49f9   U$$MOD
-003e49ff   __nop
-003e4a00   __register_lock
-003e4a03   __register_unlock
-003e4a06   etext
-003e4a06   ___etext__
+003e43ca   _Gpioinit
+003e4412   _startmotor
+003e4484   _stopmotor
+003e4490   _main
+003e4583   _t2pint_isr
+003e4597   _cap_isr
+003e4660   _t1pint_isr
+003e4707   _pdpinta_isr
+003e4727   _pidcontrol
+003e479e   _delay
+003e47b2   _ldelay
+003e47bf   _Scirxinta_isr
+003e480f   _Scitxinta_isr
+003e4814   _c_int00
+003e485a   _exit
+003e4879   C$$EXIT
+003e487b   _atexit
+003e4897   _abort
+003e4898   FS$$ADD
+003e4924   FS$$CMP
+003e493b   FS$$MPY
+003e4995   FS$$TOI
+003e49b9   I$$DIV
+003e49ca   I$$MOD
+003e49db   I$$TOFS
+003e49f5   U$$DIV
+003e49fa   U$$MOD
+003e4a00   __nop
+003e4a01   __register_lock
+003e4a04   __register_unlock
+003e4a07   etext
+003e4a07   ___etext__
 003f7ff8   _CsmPwl
 ffffffff   ___binit__
 ffffffff   pinit

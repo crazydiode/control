@@ -1,3 +1,37 @@
 -----------------------------  edit.pjt - Release  -----------------------------
+[adinit.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -fr"E:/DSP/motor_control/Release" -i"E:/DSP/motor_control/include" -d"LARGE_MODEL" -ml -v28 -@"../Release.lkf" "adinit.c"
+
+[cap.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -fr"E:/DSP/motor_control/Release" -i"E:/DSP/motor_control/include" -d"LARGE_MODEL" -ml -v28 -@"../Release.lkf" "cap.c"
+
+[DSP2812LCD.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -fr"E:/DSP/motor_control/Release" -i"E:/DSP/motor_control/include" -d"LARGE_MODEL" -ml -v28 -@"../Release.lkf" "DSP2812LCD.c"
+"DSP2812LCD.c", line 79: warning: expression has no effect
+
+[DSP281x_CodeStartBranch.asm] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -fr"E:/DSP/motor_control/Release" -i"E:/DSP/motor_control/include" -d"LARGE_MODEL" -ml -v28 -@"../Release.lkf" "DSP281x_CodeStartBranch.asm"
+
+[DSP28_DefaultIsr.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -fr"E:/DSP/motor_control/Release" -i"E:/DSP/motor_control/include" -d"LARGE_MODEL" -ml -v28 -@"../Release.lkf" "DSP28_DefaultIsr.c"
+
+[DSP28_GlobalVariableDefs.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -fr"E:/DSP/motor_control/Release" -i"E:/DSP/motor_control/include" -d"LARGE_MODEL" -ml -v28 -@"../Release.lkf" "DSP28_GlobalVariableDefs.c"
+
+[DSP28_PieCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -fr"E:/DSP/motor_control/Release" -i"E:/DSP/motor_control/include" -d"LARGE_MODEL" -ml -v28 -@"../Release.lkf" "DSP28_PieCtrl.c"
+
+[DSP28_PieVect.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -fr"E:/DSP/motor_control/Release" -i"E:/DSP/motor_control/include" -d"LARGE_MODEL" -ml -v28 -@"../Release.lkf" "DSP28_PieVect.c"
+
+[DSP28_Sci.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -fr"E:/DSP/motor_control/Release" -i"E:/DSP/motor_control/include" -d"LARGE_MODEL" -ml -v28 -@"../Release.lkf" "DSP28_Sci.c"
+
+[DSP28_SysCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -fr"E:/DSP/motor_control/Release" -i"E:/DSP/motor_control/include" -d"LARGE_MODEL" -ml -v28 -@"../Release.lkf" "DSP28_SysCtrl.c"
+
+[DSP28_Xintf.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -fr"E:/DSP/motor_control/Release" -i"E:/DSP/motor_control/include" -d"LARGE_MODEL" -ml -v28 -@"../Release.lkf" "DSP28_Xintf.c"
+
+[evpwm.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -fr"E:/DSP/motor_control/Release" -i"E:/DSP/motor_control/include" -d"LARGE_MODEL" -ml -v28 -@"../Release.lkf" "evpwm.c"
+
+[gpioinit.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -fr"E:/DSP/motor_control/Release" -i"E:/DSP/motor_control/include" -d"LARGE_MODEL" -ml -v28 -@"../Release.lkf" "gpioinit.c"
+
+[motorcrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -fr"E:/DSP/motor_control/Release" -i"E:/DSP/motor_control/include" -d"LARGE_MODEL" -ml -v28 -@"../Release.lkf" "motorcrl.c"
+
+[weizhisudupid.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -q -fr"E:/DSP/motor_control/Release" -i"E:/DSP/motor_control/include" -d"LARGE_MODEL" -ml -v28 -@"../Release.lkf" "weizhisudupid.c"
+
+[Linking...] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -@"Release.lkf"
+<Linking>
+
 Build Complete,
-  0 Errors, 0 Warnings, 0 Remarks.
+  0 Errors, 1 Warnings, 0 Remarks.

@@ -344,7 +344,7 @@ interrupt void  t1pint_isr(void)   //每个PWM周期中断一次
   		////速度调节
   		test1[t2]=Averagedcc;
   		t2++;
-  		if(t2==5000)   //question
+  		if(t2==2000)   //question
   		{   
   			pidcontrol(Speedset,Speed);//250ms 
   			t2=0;  		
@@ -355,7 +355,7 @@ interrupt void  t1pint_isr(void)   //每个PWM周期中断一次
   	AdcRegs.ADC_ST_FLAG.bit.INT_SEQ1_CLR=1; //清除状态字
  	AdcRegs.ADCTRL2.bit.RST_SEQ1=1;//复位seq1
   
-  //	EvaRegs.EVAIFRA.bit.T1PINT=1;//清除中断标志
+  	EvaRegs.EVAIFRA.bit.T1PINT=1;//清除中断标志
   	EvaRegs.EVAIMRA.bit.T1PINT=1;//中断允许 
    
   	PieCtrl.PIEACK.bit.ACK2=1;//写1清零
